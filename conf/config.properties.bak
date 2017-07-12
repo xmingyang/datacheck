@@ -1,0 +1,14 @@
+#mysql  config
+jdbc.driverClassName=com.mysql.jdbc.Driver
+jdbc.url=jdbc:mysql://localhost:3306/jobstreamdb?autoReconnect=true
+jdbc.username=jobuser
+jdbc.password=jobuser123
+#max
+retry.count=0
+cmd=bin/alert.sh
+sshmodule=bin/sshmodule.sh
+pythonmodule=bin/pythonmodule.sh
+javamodule=bin/javamodule.sh
+mapreducemodule=bin/mapreducemodule.sh
+#email address list
+email=xxx@xxx.com\,yyy@yyy.com
