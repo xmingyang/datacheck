@@ -291,8 +291,8 @@ CREATE TABLE `datasource` (
   PRIMARY KEY (`id`),
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 
-insert into project(project_en,project_cn,max) values('check_main_day','数据质量稽核日跑批',4);
-insert into project(project_en,project_cn,max) values('check_main_hour','数据质量稽核小时跑批',3);
+#insert into project(project_en,project_cn,max) values('check_main_day','数据质量稽核日跑批',4);
+#insert into project(project_en,project_cn,max) values('check_main_hour','数据质量稽核小时跑批',3);
 
- insert into proj_crontab(project_id,cronexpression,is_enable) values(1,'30 30 02 * * ?',1);
- insert into proj_crontab(project_id,cronexpression,is_enable) values(2,'0 10 * * * ?',1); 
+# insert into proj_crontab(project_id,cronexpression,is_enable) values(1,'30 30 02 * * ?',1);
+# insert into proj_crontab(project_id,cronexpression,is_enable) values(2,'0 10 * * * ?',1); 
